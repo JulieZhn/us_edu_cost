@@ -24,6 +24,8 @@ var storyContent = ﻿{
             "\n",
             "^How much budget you do have? (hint: the reasonable range would be from $400,000 to $1,000,000)",
             "\n",
+            "^(if you don't see an option below, please click RESTART up on the top right corner)",
+            "\n",
             "ev",
             "str",
             "^Let's go to explore!",
@@ -47,8 +49,15 @@ var storyContent = ﻿{
                         "#f": 5
                     }
                 ],
+                "g-0": [
+                    "done",
+                    {
+                        "#f": 5
+                    }
+                ]
             }
         ],
+        "done",
         {
             "Chinese": [
                 [
