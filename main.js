@@ -101,6 +101,10 @@
                     storyContainer.appendChild(imageElement);
 
                     showAfter(delay, imageElement);
+
+                    imageElement.addEventListener("load", function() {
+                        storyContainer.style.height = contentBottomEdgeY()+"px";
+                    })
                     delay += 200.0;
                 }
 
